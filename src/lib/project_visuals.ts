@@ -8,3 +8,6 @@ export const projectScreenshots: Record<string, string> = Object.fromEntries([
 ].map(id => [id, `/project-previews/${id}.jpg`]));
 
 export const hasProjectScreenshot = (id: string) => Object.prototype.hasOwnProperty.call(projectScreenshots, id);
+
+
+projectScreenshots['github-pimx-voice'] = '/project-previews/github-pimx-voice.png';

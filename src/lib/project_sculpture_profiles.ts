@@ -10,6 +10,7 @@ export interface ProjectSculptureProfile {
 const art = (title: string, signature: string, accent: string, secondary: string, backdrop: string): ProjectSculptureProfile => ({ title, signature, accent, secondary, backdrop });
 
 export const projectSculptureProfiles: Record<string, ProjectSculptureProfile> = {
+  'github-pimx-voice': art('VOICE', 'Tab audio / translated speech / two subtitle tracks', '#63d8d6', '#ffd28c', '#102b30'),
   'github-pimx-agent': art('AGENT', 'Neural core / orbiting tools', '#8da2ff', '#f79eff', '#17132c'),
   'github-pimx-morph': art('MORPH', 'Matter transforming between formats', '#ff8467', '#ffdf7f', '#2a1714'),
   'pimx-veil': art('VEIL', 'A concealed payload inside its carrier', '#d3b7ff', '#7df2d4', '#19142b'),
